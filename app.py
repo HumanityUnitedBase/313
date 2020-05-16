@@ -1,8 +1,6 @@
 from twitter import Twitter
 import time
 
-#test bismillah pancing ke heroku supaya keluar dyno
-
 tw = Twitter()
 
 def start():
