@@ -14,8 +14,8 @@ def start():
                 id = dms[i]['id']
 
                 if len(message) is not 0 and len(message) < 280:
-                    if "HUB" in message:
-                        message = message.replace("HUB", "")
+                    if "Hub!" in message:
+                        message = message.replace("Hub!", " Hub!")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")
